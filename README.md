@@ -150,4 +150,4 @@ src/main/java/com/ecommerce/ecommerce_api/
 
 ## 👤 Autor
 
-Karlos — [GitHub](https://github.com/OKallus)
+Carlos Eduardo — [GitHub](https://github.com/OKallus)
