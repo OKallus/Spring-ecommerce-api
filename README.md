@@ -1,10 +1,10 @@
-# 🛒 E-commerce API
+#  E-commerce API
 
 API REST para e-commerce desenvolvida com Spring Boot, com autenticação JWT, controle de acesso por roles, carrinho de compras e gerenciamento de pedidos.
 
 ---
 
-## 🚀 Tecnologias
+##  Tecnologias
 
 - **Java 21**
 - **Spring Boot 3**
@@ -18,7 +18,7 @@ API REST para e-commerce desenvolvida com Spring Boot, com autenticação JWT, c
 
 ---
 
-## ⚙️ Como rodar o projeto
+##  Como rodar o projeto
 
 ### Pré-requisitos
 
@@ -57,7 +57,7 @@ A API estará disponível em: `http://localhost:8080`
 
 ---
 
-## 📄 Documentação dos endpoints
+##  Documentação dos endpoints
 
 Acesse o Swagger UI após subir a aplicação:
 
@@ -101,7 +101,7 @@ http://localhost:8080/swagger-ui.html
 
 ---
 
-## 🔐 Autenticação
+##  Autenticação
 
 A API utiliza **JWT Bearer Token**. Após o login, inclua o token no header das requisições:
 
@@ -111,7 +111,7 @@ Authorization: Bearer {seu_token}
 
 ---
 
-## 🗂️ Estrutura do projeto
+##  Estrutura do projeto
 
 ```
 src/main/java/com/ecommerce/ecommerce_api/
@@ -128,7 +128,7 @@ src/main/java/com/ecommerce/ecommerce_api/
 
 ---
 
-## 🧠 Decisões técnicas
+##  Decisões técnicas
 
 - **Soft delete** em produtos — registros nunca são removidos fisicamente do banco
 - **Snapshot de preço** em `OrderItem.unitPrice` — garante que o preço do pedido não muda se o produto for atualizado
@@ -138,7 +138,7 @@ src/main/java/com/ecommerce/ecommerce_api/
 
 ---
 
-## 📦 Variáveis de ambiente
+##  Variáveis de ambiente
 
 | Variável | Descrição | Padrão (dev) |
 |----------|-----------|--------------|
@@ -148,6 +148,6 @@ src/main/java/com/ecommerce/ecommerce_api/
 
 ---
 
-## 👤 Autor
+##  Autor
 
 Carlos Eduardo — [GitHub](https://github.com/OKallus)
